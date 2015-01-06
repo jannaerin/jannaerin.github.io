@@ -62,7 +62,7 @@ width: auto\9; /* ie8 */*/
 img.floatleft { float: left; margin: 0 10px 0 0; }
 img.floatright { float: right; margin: 0 0 0 10px; }
 
-div {
+/*div {
     text-align: justify;
 }
 
@@ -76,7 +76,7 @@ div:after {
     content: '';
     display: inline-block;
     width: 100%;
-}
+}*/
 
 
 p.subcaption {
