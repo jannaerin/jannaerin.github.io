@@ -22,27 +22,12 @@ width: auto\9; /* ie8 */*/
 img.floatleft { float: left; margin: 0 10px 0 0; }
 img.floatright { float: right; margin: 0 0 0 10px; }
 
-/*div {
-    text-align: justify;
-}
-
-div img {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-}
-
-div:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-}*/
 
 
 p.subcaption {
-color: #929292;	
+color: dimgray;	
 text-align: center;
-font-size: 15px;
+font-size: 1em;
 line-height: 1.3em;
 margin: 5px auto 30px auto;
 }
