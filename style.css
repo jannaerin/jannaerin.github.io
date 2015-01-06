@@ -1,8 +1,14 @@
-body {background-color:white;
-		text-align:center;}
-	#mainContainer {
-		margin:0 auto;
-	}
+html, body {
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:dimgray
+}
+/*background-color:white;*/
 	h1 {color:dimgray;
 		font-family: 'Open Sans', sans-serif;
 		font-size:200%;
@@ -15,6 +21,85 @@ body {background-color:white;
 		font-family: 'Open Sans', sans-serif;
 		font-size:100%;
 	}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Futura;
+    font-size: 20px;
+    color: #5d5d5d;
+    text-align: center;
+}
+
+.image-panel { 
+    width: 100%;
+    height: 50%;
+    display: block;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#header{position: fixed; z-index: 999;}
+#backgroundtop{
+    background-image: url("../img/home/backgroundtop.jpg");
+    height: 100%;
+}
+
+#background1{
+    background-image: url("../img/home/background1.jpg");
+}
+
+#background2{
+    background-image: url("../img/home/background2.jpg");
+}
+
+#background3{
+    background-image: url("../img/home/background3.jpg");
+}
+
+#background4{
+    background-image: url("../img/home/background4.jpg");
+}
+
+.content-panel {
+    width: 100%;
+    padding: 45px 0;
+    position: relative;
+    z-index: 9;
+}
+
+.content-first {
+    background-color: black;
+    width: 100%;
+    padding: 45px 0;
+    position: relative;
+    z-index: 9;}
+    /*
+    -webkit-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 8px 0px rgba(50, 50, 50, 0.75);*/
+}
+
+#backgroundtop img{ margin: 0 auto; display: block;}
+
+#title{
+    margin: 0; !important
+    padding: 0; !important
+    font-size: 40px;
+    color: white;
+}
+
+#arrow{ width: 5%; bottom: 5%; position: absolute; z-index: 999; margin: 0 auto; align-content: center; text-align: center; left: 47.5%}
+#transitiontop{ width: 100%; bottom: 0%; position: absolute; left: 0%;}
+
+#content1 img{margin: 0 auto; display: block;}
 
 * {
   -webkit-box-sizing: border-box;
