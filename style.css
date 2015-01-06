@@ -9,6 +9,10 @@ html, body {
 	font-size: 20px;
 	color:dimgray
 }
+
+a:link {text-decoration: none; color:#999999; font-weight:BOLD;}
+a:visited {text-decoration: none; color:#999999; font-weight:BOLD;}
+a:hover {text-decoration: none; color:#999999; font-weight:BOLD;}
 /*background-color:white;*/
 
 /*.image-panel { 
