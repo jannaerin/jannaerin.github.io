@@ -10,25 +10,17 @@ html, body {
 	color:dimgray
 }
 
-img {
+/*img {
 border : 0;
 max-width: 100%;
 min-width: 75%;
 height: auto;
 width: auto\9; /* ie8 */
-}
+/*}
 
 img.floatleft { float: left; margin: 0 10px 0 0; }
-img.floatright { float: right; margin: 0 0 0 10px; }
+img.floatright { float: right; margin: 0 0 0 10px; }*/
 
-.twocolumns{
-	-moz-column-count: 2;
-	-moz-column-gap: 2em;
-	-webkit-column-count: 2;
-	-webkit-column-gap: 2em;
-	column-count: 2;
-	column-gap: 2em;
-  }
 
 p.subcaption {
 color: #929292;	
