@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+  font-family: 'Open Sans', sans-serif;
+  color:dimgray;
+}
+
+h1 {
+  font-size: 25px;
+  text-align:center;
+}
+
+h2 {
+	font-size: 15px;
+	text-align:center;
+}
