@@ -22,6 +22,19 @@ width: auto\9; /* ie8 */*/
 img.floatleft { float: left; margin: 0 10px 0 0; }
 img.floatright { float: right; margin: 0 0 0 10px; }
 
+.outer {
+    text-align: justify;
+}
+.outer img {
+    display: inline-block;
+    vertical-align: center;
+}
+.outer .fix {
+    width: 100%;
+    height: 0;
+    display: inline-block;
+}
+
 
 
 p.subcaption {
