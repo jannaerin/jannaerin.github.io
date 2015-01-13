@@ -10,6 +10,7 @@ body {
 }
 
 h1 {
+  top-padding: 1em;
   font-size: 25px;
 }
 
