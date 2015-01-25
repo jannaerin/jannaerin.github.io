@@ -18,7 +18,13 @@ h2 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 20px;
   text-align: left;
   padding: 2em;
+}
+
+p {
+  font-size: : 15px;
+  text-align: left;
+  padding: 3em;
 }
