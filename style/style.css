@@ -7,7 +7,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: 'Open Sans', sans-serif;
+	font: 'Open Sans';
 	font-size: 100%;
 	color:dimgray;
 	background-color: white;
