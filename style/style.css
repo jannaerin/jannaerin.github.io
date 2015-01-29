@@ -12,6 +12,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	color:dimgray;
 	background-color: white;
 	font-weight: bold;
+	font-style: italic;
 	margin: 0;
 	outline: 0;
 	padding: 0;
