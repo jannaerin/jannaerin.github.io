@@ -78,7 +78,7 @@ body {
 }
 
 body, input, textarea {
-	font: 15px 'Open Sans', sans-serif;
+	font: 15px 'Open Sans';
 	font-weight: normal;
 	line-height: 27px;
 	color: dimgray;
@@ -93,7 +93,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Open Sans', sans-serif;
+	font: 'Open Sans';
 	color: dimgray;
 }
 h1 a, 
