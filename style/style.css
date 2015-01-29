@@ -11,6 +11,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-size: 100%;
 	color:dimgray;
 	background-color: white;
+	font-weight: bold;
 	margin: 0;
 	outline: 0;
 	padding: 0;
