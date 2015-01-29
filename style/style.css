@@ -7,24 +7,24 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 	color:dimgray;
 	background-color: white;
 	font-weight: bold;
-	font-style: italic;
 	margin: 0;
 	outline: 0;
 	padding: 0;
+	text-align: center;
 	vertical-align: baseline;
 }
 :focus {/* remember to define focus styles! */
 	outline: 0;
 }
-body {
+/*body {
 	background: #fff;
 	line-height: 1;
-}
+}*/
 ol, ul {
 	list-style: none;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 body, input, textarea {
-	font: 15px 'Open Sans';
+	font: 15px 'Open Sans', sans-serif;
 	font-weight: normal;
 	line-height: 27px;
 	color: dimgray;
@@ -93,7 +93,7 @@ h3,
 h4,
 h5,
 h6 {
-	font: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	color: dimgray;
 }
 h1 a, 
