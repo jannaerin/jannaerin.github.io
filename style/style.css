@@ -143,7 +143,7 @@ h6 {
 
 /* Horizontal Line */
 hr {	
-	background: transparent url(style/images/line.png) repeat-x bottom left;
+	/*background: transparent url(style/images/line.png) repeat-x bottom left;*/
 	border: 0;
 	height: 1px;
 	margin-top: 20px;
