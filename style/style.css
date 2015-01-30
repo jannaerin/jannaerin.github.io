@@ -278,6 +278,9 @@ sub {
 
 /* Images */
 
+img {
+border : 0;
+}
 .shrink {
   display: inline-block;
   -webkit-transition-duration: 0.1s;
