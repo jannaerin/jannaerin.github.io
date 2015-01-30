@@ -89,7 +89,12 @@ body, input, textarea {
 }
 
 /* Headings */
-h1, 
+h1 {
+	font-family: 'Open Sans';
+	font-weight: normal;
+	color: dimgray;
+	font-style: bold;
+} 
 h2,
 h3,
 h4,
