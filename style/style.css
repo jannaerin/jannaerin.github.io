@@ -193,12 +193,16 @@ blockquote {
 	padding-left: 20px;
 }
 pre {
-	background: #f4f4f4;
+	/*background: #FFF;
 	font: 13px "Courier 10 Pitch", Courier, monospace;
 	line-height: 1.5;
 	margin-bottom: 40px;
 	overflow: auto;
-	padding: 0.75em 20px;
+	padding: 0.75em 20px;*/
+	font-family: 'Open Sans';
+	font-weight: normal;
+	color: #5e5e5e;
+	font-weight: bold;
 }
 code, kbd {
 	font: 13px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
