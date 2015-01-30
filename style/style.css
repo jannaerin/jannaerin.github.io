@@ -276,6 +276,28 @@ sub {
 	border:1px solid #e6c555;
 }
 
+/* Images */
+
+.shrink {
+  display: inline-block;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.shrink:hover,
+.shrink:active,
+.shrink:focus {
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
 /* Links */
 a {
 	color: #ca6d6d;
