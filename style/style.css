@@ -202,7 +202,7 @@ pre {
 	font-family: 'Open Sans';
 	font-weight: normal;
 	color: #5e5e5e;
-	font-weight: bold;
+	text-align: left;
 }
 code, kbd {
 	font: 13px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
