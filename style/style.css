@@ -1609,7 +1609,7 @@ p.form-submit {
 /*	FOOTER
 /*-----------------------------------------------------------------------------------*/
 
-#colophon {
+/*#colophon {
 	clear: both;
 	background-color: #191919;
 	margin: 40px -1px -1px;
@@ -1618,10 +1618,10 @@ p.form-submit {
 #supplementary {
 	padding: 40px 39px 0;
 	overflow: hidden;
-}
+}*/
 
 /* Two Footer Widget Areas */
-#supplementary.two .widget-area {
+/*#supplementary.two .widget-area {
 	float: left;
 	margin-right: 3.7%;
 	width: 48.1%;
@@ -1631,7 +1631,7 @@ p.form-submit {
 }
 
 /* Three Footer Widget Areas */
-#supplementary.three .widget-area {
+/*#supplementary.three .widget-area {
 	float: left;
 	margin-right: 3.7%;
 	width: 30.85%;
@@ -1641,7 +1641,7 @@ p.form-submit {
 }
 
 /* Four Footer Widget Areas */
-#supplementary.four .widget-area {
+/*#supplementary.four .widget-area {
 	float: left;
 	margin-right: 3.7%;
 	width: 22.2%;
@@ -1651,7 +1651,7 @@ p.form-submit {
 }
 
 /* Site Generator Line */
-#site-generator {
+/*#site-generator {
 	color: #999;
 	font-size: 12px;
 	line-height: 2.2em;
@@ -1671,7 +1671,7 @@ p.form-submit {
 /*	WIDGETS
 /*-----------------------------------------------------------------------------------*/
 
-.widget {
+/*.widget {
 	clear: both;
 	margin: 0 0 2.2em;
 	color: #999;
@@ -1697,77 +1697,14 @@ p.form-submit {
 	color: #fff;
 }
 
-/* Search Widget */
-#supplementary .widget-area {
-	position: relative;
-	
-}
-#supplementary .widget-area form#searchform {
-	width: auto;
-}
-#supplementary .widget-area input#s {
-	background-color: #111;
-	font-size: 14px;
-	height: 28px;
-	padding: 3px 10px 5px;
-	border: none;
-	display: block;
-	width: 95%;
-}
-#supplementary input#searchsubmit {
-	display: none;
-}
 
 /* Widget Image */
-.widget_image img {
+/*.widget_image img {
 	height: auto;
 	max-width: 100%;
 }
 
 
-/* Twitter Widget */
-#twitter  ul li {
-	background: transparent url(style/images/footer-line.png) repeat-x left top;
-	margin: 10px 0 0 0;
-	padding: 10px 0 0 0;
-	list-style: none;
-}
-
-#twitter  ul li:first-child {
-	background: none;
-	margin: 0;
-	padding: 0;
-}
-
-#twitter  ul li .entry-meta:before {
-	content: "-";
-	padding-right: 5px;
-}
-
-#twitter  ul li .entry-meta {
-	margin: 0;
-	font-size: 15px;
-	color: #999;
-}
-
-#twitter  ul li .entry-meta a {
-	color: #999;
-}
-
-#twitter  ul li .entry-meta a:hover {
-	color: #fff;
-}
-
-#twitter em {
-	font-style: normal;
-}
-
-.username {
-	display: block;
-	background: transparent url(style/images/footer-line.png) repeat-x left top;
-	margin: 10px 0 0 0;
-	padding: 10px 0 0 0;
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*	TOGGLE
