@@ -622,7 +622,7 @@ input#s {
 /*	MENU
 /*-----------------------------------------------------------------------------------*/
 
-.triangle-l {
+/*.triangle-l {
 	border-color: transparent #793e3e transparent transparent;
 	border-style:solid;
 	border-width:8px;
@@ -634,7 +634,7 @@ input#s {
 	z-index: -1; /* displayed under bubble */
 }
 
-.triangle-r {
+/*.triangle-r {
 	border-color: transparent transparent transparent #793e3e;
 	border-style:solid;
 	border-width:8px;
@@ -645,7 +645,7 @@ input#s {
 	top: -23px;
 	z-index: -1; /* displayed under bubble */
 }
-#access .menu {
+/*#access .menu {
 	list-style: none;
 	font-weight: normal;
 	position: relative;
@@ -1119,89 +1119,7 @@ footer.entry-meta .tags a:before{
 	display: block;
 	margin-bottom: 14px;
 }
-/*-----------------------------------------------------------------------------------*/
-/*	COMMENTS
-/*-----------------------------------------------------------------------------------*/
 
-#comments-title {
-
-}
-.nopassword,
-.nocomments {
-	text-align: center;
-}
-.commentlist {
-	list-style: none;
-	margin: 0 auto;
-	width: 100%;
-}
-.commentlist > li.comment {
-	margin: 0 0 20px;
-	position: relative;
-}
-.commentlist li.comment .avatar {
-	width: 80px;
-	float: left;
-}
-.commentlist li.comment .comment-content {
-	margin: 0 0 0 100px;
-	background-color: #f4f4f4;
-	padding: 20px;
-}
-.commentlist li.comment .comment-content em {
-	font-style: normal;
-	font-size: 12px;
-	color: #5e5e5e;
-}
-.commentlist li.comment .comment-content h3 {
-	margin: 0;
-}
-.commentlist li.comment .comment-meta {
-	font-size: 12px;
-	margin-bottom: 10px;
-}
-.commentlist .pingback {
-	margin: 0 0 20px;
-	padding: 20px;
-}
-.commentlist .children {
-	list-style: none;
-	margin: 0;
-}
-.commentlist .children li.comment {
-	background: #fff;
-	margin: 20px 0 0 85px;
-	position: relative;
-}
-.commentlist li.comment footer {
-	position: relative;
-	line-height: 1;
-}
-.commentlist li.comment footer a.comment-reply-link {
-	font-size: 12px;
-}
-.commentlist li.comment footer .edit-link {
-	display: block;
-	text-align: right;
-	overflow: hidden;
-}
-.commentlist li.comment footer .edit-link a {
-	font-size: 12px;
-	display: inline;
-	position: absolute;
-	top: 4px;
-	right: 0;
-}
-.commentlist li.comment .comment-content h3 a:hover,
-.commentlist li.comment footer a.comment-reply-link:hover,
-.commentlist li.comment footer .edit-link a:hover {
-	text-decoration: none;
-	color: #585858;
-}
-/* Post author highlighting */
-.commentlist li.comment.bypostauthor .comment-content {
-	background-color: #e9e9e9;
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*	FORM
@@ -1553,7 +1471,7 @@ p.form-submit {
 }
 
 /* Page-Navigation Buttons */
-.page-navi {
+/*.page-navi {
 	list-style: none;
 	text-align: center;
 }
@@ -1582,14 +1500,6 @@ p.form-submit {
 	text-decoration: none;
 }
 
-.widget-title a {
-	color: #686868;
-}
-
-.widget-title a:hover {
-	text-decoration: none;
-}
-
 
 /* Breadcrumbs */
 #crumbs {
@@ -1604,107 +1514,6 @@ p.form-submit {
 #crumbs .delimiter {
 	padding: 0 3px;
 }
-
-/*-----------------------------------------------------------------------------------*/
-/*	FOOTER
-/*-----------------------------------------------------------------------------------*/
-
-/*#colophon {
-	clear: both;
-	background-color: #191919;
-	margin: 40px -1px -1px;
-}
-
-#supplementary {
-	padding: 40px 39px 0;
-	overflow: hidden;
-}*/
-
-/* Two Footer Widget Areas */
-/*#supplementary.two .widget-area {
-	float: left;
-	margin-right: 3.7%;
-	width: 48.1%;
-}
-#supplementary.two .widget-area + .widget-area {
-	margin-right: 0;
-}
-
-/* Three Footer Widget Areas */
-/*#supplementary.three .widget-area {
-	float: left;
-	margin-right: 3.7%;
-	width: 30.85%;
-}
-#supplementary.three .widget-area + .widget-area + .widget-area {
-	margin-right: 0;
-}
-
-/* Four Footer Widget Areas */
-/*#supplementary.four .widget-area {
-	float: left;
-	margin-right: 3.7%;
-	width: 22.2%;
-}
-#supplementary.four .widget-area + .widget-area + .widget-area + .widget-area {
-	margin-right: 0;
-}
-
-/* Site Generator Line */
-/*#site-generator {
-	color: #999;
-	font-size: 12px;
-	line-height: 2.2em;
-	padding: 1.2em 0.5em;
-	text-align: center;
-	background-color: #131313;
-}
-#site-generator a {
-	color: #999;
-}
-#site-generator a:hover {
-	text-decoration: none;
-	color: #fff;
-}
-
-/*-----------------------------------------------------------------------------------*/
-/*	WIDGETS
-/*-----------------------------------------------------------------------------------*/
-
-/*.widget {
-	clear: both;
-	margin: 0 0 2.2em;
-	color: #999;
-}
-.widget-title {
-	font-weight: normal;
-	margin-bottom: 15px;
-}
-.widget ul {
-	margin: 0;
-}
-.widget ul ul {
-	margin-left: 1.5em;
-}
-.widget ul li {
-	background-image: url(style/images/light-bullet.png);
-}
-.widget a {
-	text-decoration: none;
-	color: #999;
-}
-.widget a:hover {
-	color: #fff;
-}
-
-
-/* Widget Image */
-/*.widget_image img {
-	height: auto;
-	max-width: 100%;
-}
-
-
 
 /*-----------------------------------------------------------------------------------*/
 /*	TOGGLE
